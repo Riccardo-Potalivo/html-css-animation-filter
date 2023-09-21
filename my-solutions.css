@@ -93,3 +93,41 @@
     filter: grayscale(0.7);
     border-radius: 20px;
 }
+
+.ex-10-icon 
+{
+    animation: infinite reverse linear rotation  1s;
+}
+
+@keyframes rotation
+{
+    form
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(359deg);
+    }
+}
+
+.ex-11-icon:hover
+{
+    animation: partial-rotation  2s;
+}
+
+@keyframes partial-rotation
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    90%
+    {
+        transform: rotate(240deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
