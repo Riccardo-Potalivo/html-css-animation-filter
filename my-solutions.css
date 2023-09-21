@@ -9,3 +9,9 @@
     width: 100%;
     transition: 2s;
 }
+
+.ex-3-square:hover
+{
+    border-radius: 50%;
+    transition: 2s;
+}
